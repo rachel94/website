@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+/* Colours */
+/*
+Light gray:
+#c2c2c2;
+Dark gray:
+#898989
+Nav Bar dark gray:
+#212529
+Light Turquoise:
+#72d1e0
+Dark Turquoise:
+#5eb0bc
+*/
+
+
+body, h1, h2, h3, h4, h5, h6, p, a, .navlink .navbar-brand, section h3.section-subheading, .btn {
+  font-family: "Open Sans Condensed", sans-serif !important;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, .navlink .navbar-brand, section h3.section-subheading, .btn {
+  color: #212529 !important;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 6px;
+}
+
+.about {
+  margin-left:100px;
+  margin-right:100px;
+}
+
+.about p {
+  font-size: 14pt;
+  text-align: left;
+}
+
+a.portfolio-link {
+  text-decoration: none !important;
+  /*color: black !important;*/
+}
+
+.left {
+  text-align: left;
+}
+
+p.left {
+  margin-bottom: 0px !important;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+h4.left {
+  margin-bottom: 0px;
+  padding-bottom: 6px;
+  padding-top: 24px;
+}
+
+p.first {
+  padding-top: 24px;
+}
+
+p.last {
+  padding-bottom: 24px;
+}
+
+p.subtitle {
+  color: #c2c2c2;
+}
+
+p.pf {
+  font-size: 18px;
+}
+
+.section-heading {
+  padding-bottom: 30px;
+}
+
+a.subtle2 {
+  /*color: #72d1e0 !important;*/
+  font-weight: bold;
+  color: inherit !important;
+}
+
+a.subtle,
+a.subtle.portfolio-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a.subtle2:hover,
+a.subtle:hover,
+a.subtle.portfolio-link:hover {
+  text-decoration: none !important;
+  color: #72d1e0 !important;
+}
+
+.portolio-modal .modal-content {
+  text-align: left;
+}
+
+.portfolio-modal .modal-content h2 {
+  text-align: center;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.row.portfolio-row {
+  padding-top: 30px;
+}
+
+footer {
+  background-color: rgb(34, 37, 41);
+}
+
+.copyright {
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif !important;
+}
+
+/*background colours*/
+#about,
+#portfolio {
+  background-color: #898989; /*dark colour*/
+}
+
+#resume {
+  background-color: #c2c2c2; /*light colour*/
+}
+
+p.text-muted {
+/*  color: black !important;*/
+}
+
+}
+a div.timeline-image {
+  background-color: #72d1e0;
+}
+
+a:hover div.timeline-image {
+  background-color: #5eb0bc;
+}
+
+h4.subheading {
+  padding-top: 20px;
+  margin-bottom: 6px;
+}
+
+h4.date {
+  font-size: 14pt;
+}
+
+/* Heading */
+p.description {
+  text-align: left;
+  font-size: 14pt;
+  max-width: 520px;
+  /*padding-left: 40px;*/
+}
+
+h3.welcome {
+  vertical-align: middle;
+  text-align: left;
+  /*padding-left: 40px;*/
+}
+
+/*Images*/
+img.profile {
+  border-radius: 10px;
+  filter: grayscale(100%);
+  display: block;
+  margin: 0 auto;
+  width: 68%;
+  /*width: 80%;*/
+}
+
+img.museum {
+  padding-top: 6px;
+  margin-bottom: 12px !important;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* nav */
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 100%;
+}
+
+/* links */
+
+/* button */
+.btn.btn-primary.btn-xl {
+  color: #212529;
+}
