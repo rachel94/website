@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- The script tag should live in the head of your page if at all possible -->
+<script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('103-MWY-702');
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>
+
+<!-- Put this wherever you would like your player to appear -->
+<img
+  style="width: 100%; margin: auto; display: block;"
+  class="vidyard-player-embed"
+  src="https://play.vidyard.com/61ZLw2x4r5yPi4o5SvokHT.jpg"
+  data-uuid="61ZLw2x4r5yPi4o5SvokHT"
+  data-v="4"
+  data-type="inline"
+  data-width="600"
+/>
+
+</body>
